@@ -1,5 +1,5 @@
-import React from "react";
-import { h1Style, h4Style } from "./titleBarStyle";
+import React from 'react';
+import { h1Style, h4Style } from './titleBarStyle';
 
 const TitleBar = () => (
   <div>

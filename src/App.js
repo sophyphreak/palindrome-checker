@@ -1,6 +1,6 @@
-import React, { Component } from "react";
-import TitleBar from "./TitleBar/TitleBar";
-import Main from "./Main/Main";
+import React, { Component } from 'react';
+import TitleBar from './TitleBar/TitleBar';
+import Main from './Main/Main';
 
 class App extends Component {
   render() {

@@ -1,7 +1,7 @@
 const isPalindrome = possiblePalindrom => {
   const onlyLetters = possiblePalindrom
     .match(/[a-zA-Z0-9]+/g)
-    .join("")
+    .join('')
     .toLowerCase();
 
   const max = Math.floor(onlyLetters.length / 2);
