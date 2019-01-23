@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import isPalidrome from './isPalindrome/isPalindrome';
 import { Col, Input, Row } from 'reactstrap';
-import { rowStyle } from './mainStyle';
+import { rowStyle, pStyle } from './mainStyle';
 
 class Main extends Component {
   constructor(props) {
@@ -35,7 +35,7 @@ class Main extends Component {
             onChange={this.handleChange}
             placeholder="please enter something"
           />
-          <p>{this.state.palindromeCheckerSays}</p>
+          <p style={pStyle}>{this.state.palindromeCheckerSays}</p>
         </Col>
       </Row>
     );
